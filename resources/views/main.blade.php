@@ -82,6 +82,7 @@
             @include('partials.navbar')
             <div class="content ">
                 @yield('content')
+                <h5>Checking Github ACtions</h5>
             </div>
             <div class="bottom-bar">
                 @yield('partials.bottom-bar')
